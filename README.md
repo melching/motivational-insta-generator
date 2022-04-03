@@ -26,3 +26,6 @@ Using the quote, the keywords and the image, generate a list of hashtags matchin
 
 ### 6. Post the result to instagram
 Automate the procedure to post it to instagram. Account: **summa*removeme*limetta** (without "removeme")
+
+# Examples:
+![Example Image.](images/insta.png)
