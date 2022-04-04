@@ -40,7 +40,7 @@ def place_text_on_image(image_orig, text, draw_outline=False):
         # draw.multiline_text((image.width/2+1, image.height/2), wrapped_text, fill="black", anchor="mm", font=font, align="center")
         # draw.multiline_text((image.width/2, image.height/2-1), wrapped_text, fill="black", anchor="mm", font=font, align="center")
         # draw.multiline_text((image.width/2, image.height/2+1), wrapped_text, fill="black", anchor="mm", font=font, align="center")
-        draw.multiline_text((image.width/2+1, image.height/2+1), wrapped_text, fill="black", anchor="mm", font=font, align="center")
+        draw.multiline_text((image.width/2+2, image.height/2+2), wrapped_text, fill="black", anchor="mm", font=font, align="center")
     draw.multiline_text((image.width/2, image.height/2), wrapped_text, fill="white", anchor="mm", font=font, align="center")
     return image
 
