@@ -20,7 +20,7 @@ def get_pexels_image_using_query(query, API_KEY="", return_author=True):
 
 def request_pexels_images(query, header, n_images=50):
     url = "https://api.pexels.com/v1/search?query="+query+"&per_page="+str(n_images)+"&orientation=square&locale=\"en-US\""
-    req = requests.get(url, header).json()
+    req = requests.get(url, headers=header).json()
     return req["photos"]
 
 def download_and_resize_image(url):
@@ -29,7 +29,7 @@ def download_and_resize_image(url):
     return image
 
 def place_text_on_image(image_orig, text, draw_outline=False):
-    font = ImageFont.truetype("fonts/Aldi-Bold.otf", 90)
+    font = ImageFont.truetype("fonts/Aldi-Bold.otf", 95)
 
     wrapped_text = wrap_text(text, linewidth=18)
 
