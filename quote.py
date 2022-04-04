@@ -6,9 +6,9 @@ def read_from_file(path, n=1):
         data = file.read()
     quotes = json.loads(data)
 
-    if n is 1:
+    if n == 1:
         return random.choice(quotes)
-    elif n is 0:
+    elif n == 0:
         return quotes
     else:
         return random.sample(quotes, n)

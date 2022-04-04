@@ -42,3 +42,7 @@ def get_keywords_using_embedding_similarity(sentences, top_n=5):
 
     keywords = [canditates[i] for i in cosine_sim.argsort()[0]][::-1][:top_n]
     return keywords
+
+def pad_keywords(keywords, padding=["nature", "inspirational"]):
+    keywords = keywords + padding
+    return list(set(keywords)) # remove duplicates
