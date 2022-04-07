@@ -6,6 +6,9 @@ Its goal is not to seriously create content for instagram to make a channel famo
 ___
 ___
 ## Procedure
+
+![](images/flow.png)
+
 ### 1. Get a motivational quote
 As I am not really creative on a motivational level, it is clear that some quotes have to be generated or copied using external ressources.  
 DONE: Found a file containing various quotes. Sufficient for now.  
