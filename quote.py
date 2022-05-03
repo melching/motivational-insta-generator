@@ -7,8 +7,18 @@ def read_from_file(path, n=1):
     quotes = json.loads(data)
 
     if n == 1:
-        return random.choice(quotes)
+        quotes = random.choice(quotes)
     elif n == 0:
-        return quotes
+        quotes = quotes # redundant, but keeping for explainability
     else:
-        return random.sample(quotes, n)
+        quotes = random.sample(quotes, n)
+
+    if isinstance(quotes, list):
+        for q in quotes:
+            if q["author"] is None:
+                q["author"] = "Unknown author"
+    else:
+        if quotes["author"] is None:
+            quotes["author"] = "Unknown author"
+    
+    return quotes
