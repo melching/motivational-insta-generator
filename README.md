@@ -41,3 +41,18 @@ ___
 
 # Examples:
 ![Example Image.](images/insta.png)
+<p float="left">
+  <img src="images\Abraham Lincoln1649083616.342549.png" width="250" />
+  <img src="images\Catherine Pulsifer1649087605.7511227.png" width="250" />
+  <img src="images\Richard Bach1649085695.7843273.png" width="250" />
+</p>
+<p float="left">
+  <img src="images\Ambrose Bierce1649088489.0455432.png" width="250" />
+  <img src="images\Bruce Lee1649090039.6069443.png" width="250" />
+  <img src="images\Dalai Lama1649090513.2872477.png" width="250" />
+</p>
+<p float="left">
+  <img src="images\Benjamin Franklin1649177386.847758.png" width="250" />
+  <img src="images\Ralph Waldo Emerson1649088810.565718.png" width="250" />
+  <img src="images\Paulo Coelho1649090189.21405.png" width="250" />
+</p>
