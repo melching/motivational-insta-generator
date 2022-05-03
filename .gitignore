@@ -130,3 +130,5 @@ dmypy.json
 
 # do not push any further changes to credentials ...
 credentials.cfg
+
+screenshot.png
